@@ -357,15 +357,13 @@ position: relative;
 position: absolute;
 left: 210px;
 top:1320px;
-display: none;
+
+visibility: hidden;
 
 }
+.play1{
 
-.img-a1:hover{
-display: contents;
-   
-
-
+visibility: visible;
 }
 
 
@@ -434,16 +432,16 @@ line-height: 60px;
 }
  .main-sec-c3{
 
-   background-color: rgba(255, 66, 165, 0.03) ;
-
+background-color: rgba(255, 66, 165, 0.03) ;
+ height: 300px;
+ 
 
  }
 
 .main-d5{
 
 width: auto;
-height:110px;
-text-align: center;
+height: 170px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -453,8 +451,7 @@ gap: 50px;
 .main-d4{
 
     width: auto;
-    height:110px;
-    text-align: center;
+    height: 50px;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -565,7 +562,7 @@ gap: 30px;
 }
 
 .footer-list1 li{
-margin-top: 60px;
+margin-top: 50px;
 list-style:none;
  color: #fff;  
  color: #FFF;
@@ -584,3 +581,142 @@ line-height: normal;
     gap: 30px;
     margin-top:60px ;
 }
+
+.footer-alist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top:50px ;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    list-style: none;
+
+}
+
+
+.footer-p{
+
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top:30px ;
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+    .container {
+      flex-direction: column;
+      width: 100%;
+      height: 300px;
+      
+    }
+  
+    .logo {
+     margin-right: 30%;
+    }
+  
+    .header-h1 {
+      /* Mobile header-h1 styles */
+    }
+
+    .header-ul1{
+        flex-direction: column;
+        margin-left: ;
+    }
+  
+    .menu {
+      margin-left: 30%;
+    }
+  
+    .menu ul {
+      /* Mobile menu ul styles */
+    }
+  
+    .menu ul li a {
+      /* Mobile menu anchor styles */
+    }
+  
+    .follow {
+        margin-bottom: 50px;
+    }
+  
+    .header-sec2 {
+     flex-direction: column;
+     width:100%;
+    }
+    .header-sec1-write{
+
+    width: 80%;
+
+    }
+   .header-btn{
+    display: flex;
+    margin-right: 60px;
+
+
+   }
+
+   .header-sec1-pic{
+    width: 100%;
+   }
+
+   .img18{
+
+width:67% ;
+margin-top: 100px;
+
+   }
+  
+    .header-sec1-write {
+      /* Mobile header-sec1-write styles */
+    }
+
+.main-sec1{
+width: 100%;
+
+}
+.main-h1b{
+text-align: center;
+width:60%;
+margin-left: 100px;
+}
+
+.card{
+
+flex-direction: column;
+width: 100%;
+height: auto;
+
+}
+
+.main-sec2{
+  
+flex-direction: column;
+width:fit-content;
+}
+
+.rec67{
+width: 70%;
+position: relative;
+}
+
+.rec78{
+position: absolute;
+top:3860px;
+right: 5px;
+
+}
+
+
+  }
